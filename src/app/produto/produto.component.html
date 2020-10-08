@@ -1,0 +1,27 @@
+<!--h1>teste12</h1>
+<button (click)= "alternar()">chama !!</button>
+    <!-->
+    <!--h1 *ngIf="esconder">exemplo 22</h1>
+    <h1 [hidden]="esconder">exemplo 11</h1>
+<!-->
+
+<!--section *ngFor="let produto of produtos">
+    <h4>Nome13: {{produto}}</h4>
+    <input type="number" [(ngModel)]="num"/>  <br>
+    <input type="number" [(ngModel)]="num2"/>
+    <p>Soma: {{num+num2}}</p>
+</section>
+<!-->
+    
+
+
+<section *ngFor="let produto of produtos">
+    <h4>Soma: {{produto}}</h4>
+    <input type="number" [(ngModel)]="num"/>  <br>
+    <input type="number" [(ngModel)]="num2"/> <br>
+    <button (click)= "ngOnInit()">Somar !!</button>
+        <p *ngIf="mostrar">Soma: {{produto}}</p>
+</section>
+
+
+
